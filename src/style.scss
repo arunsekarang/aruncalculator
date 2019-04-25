@@ -1,0 +1,31 @@
+.row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.calcHeader{
+  h1{
+      font-size: 20px;
+  }
+}
+.calcPage{
+    max-width: 300px;
+    .resultTab{
+        height: 50px;
+    }
+    table{
+        border: 1px solid #ddd;
+        
+        td{
+            cursor: pointer;
+            transition: all linear .3s;
+            &:hover{
+                background-color: #007bff;
+                color: #fff;
+            }
+        }
+        th, td{
+            border: 1px solid #dee2e6  !important;
+        }
+    }
+}
